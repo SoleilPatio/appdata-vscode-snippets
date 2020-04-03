@@ -1,0 +1,1 @@
+# appdata-vscode-snippets
