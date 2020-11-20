@@ -20,12 +20,13 @@
 			"# -*- coding: utf-8 -*-",
 			"from __future__ import print_function",
 			"#...................................",
-			"# Add libPython\.. into PYTHONPATH",
+			"# Add libPython\\.. into PYTHONPATH",
 			"#...................................",
 			"import sys",
 			"import os",
-			"_libpython_root_dir_ = os.path.join(os.path.dirname(__file__), "..", "..")",
-			"sys.path.append(_libpython_root_dir_)"
+			"_libpython_root_dir_ = os.path.join(os.path.dirname(__file__), \"..\", \"..\")",
+			"sys.path.append(_libpython_root_dir_)",
+			"#------------------------------------------------------------------------------"
 		],
 		"description": "python header"
 	  },
