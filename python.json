@@ -12,6 +12,16 @@
 	// 	],
 	// 	"description": "Log output to console"
 	// }
+	
+	"H0 header": {
+		"prefix": "header",
+		"body": [
+			"#!/usr/bin/python",
+			"# -*- coding: utf-8 -*-",
+			"from __future__ import print_function"
+		],
+		"description": "python header"
+	  },
 
 	"H1 comment (File)": {
 		"prefix": "comment_h1",
