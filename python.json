@@ -12,9 +12,8 @@
 	// 	],
 	// 	"description": "Log output to console"
 	// }
-	
 	"H0 header": {
-		"prefix": "header_h0",
+		"prefix": "libpythonpath",
 		"body": [
 			"#!/usr/bin/python",
 			"# -*- coding: utf-8 -*-",
@@ -22,13 +21,25 @@
 			"#................................................................................",
 			"# Add libPython\\.. into PYTHONPATH if in unit test",
 			"#................................................................................",
-			"if __name__ == \"__main__\":",
-			"	import sys",
-			"	import os",
-			"	sys.path.append(os.path.join(os.path.dirname(__file__), \"..\", \"..\"))",
-			"#................................................................................",
-			"# End of Python script header",
-			"#................................................................................",
+			"import sys",
+			"import os",
+			"sys.path.append(os.path.join(os.path.dirname(__file__), \"..\", \"..\"))",
+		],
+		"description": "_libpythonpath_.py content"
+	  },
+	
+	
+	"H0 header": {
+		"prefix": "header_h0",
+		"body": [
+			"#!/usr/bin/python",
+			"# -*- coding: utf-8 -*-",
+			"from __future__ import print_function",
+			"#------------------------------------------------------------------------------",
+			"# Add libPython\.. into PYTHONPATH when unittest",
+			"if __name__ == "__main__":",  
+			"    import _libpythonpath_",  
+			"#------------------------------------------------------------------------------",
 		],
 		"description": "python header"
 	  },
