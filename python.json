@@ -12,7 +12,7 @@
 	// 	],
 	// 	"description": "Log output to console"
 	// }
-	"H0 header": {
+	"libpython path file": {
 		"prefix": "libpythonpath",
 		"body": [
 			"#!/usr/bin/python",
