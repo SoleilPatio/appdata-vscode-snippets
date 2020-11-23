@@ -36,7 +36,7 @@
 			"# -*- coding: utf-8 -*-",
 			"from __future__ import print_function",
 			"#------------------------------------------------------------------------------",
-			"# Add libPython\.. into PYTHONPATH when unittest",
+			"# Add libPython\\.. into PYTHONPATH when unittest",
 			"if __name__ == \"__main__\":",  
 			"    import _libpythonpath_",  
 			"#------------------------------------------------------------------------------",
